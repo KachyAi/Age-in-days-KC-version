@@ -1,0 +1,84 @@
+body{
+    font-family: "poppins";
+    background-color: #011218f0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+    border: 1px solid #fff;
+    padding: 1em;
+
+}
+
+#container>h2{
+    text-align: center;
+    color: #fff;
+}
+
+#container>#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+    border: 1px solid #fff;
+    width: 30%;
+    flex-wrap: wrap;
+}
+
+#container>#buttons>#click-me{
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 1em;
+}
+
+#container>#buttons>#reset{
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 1em;
+}
+
+#container>#buttons>#click-me:hover{
+    cursor: pointer;
+}
+#container>#buttons>#reset:hover{
+    cursor: pointer;
+}
+
+#output{
+    border: 1px solid #fff;
+    margin: 10px auto;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    #container>#buttons{
+        display: flex;
+        justify-content: center;
+        margin: 1em auto;
+        width: 30%;
+        flex-wrap: wrap;
+        border: none;
+    }
+}
+
+#info{
+    margin: auto;
+    width: 60%;
+    border: 1px solid #fff;
+    padding: 1em;
+    color: #fff;
+}
